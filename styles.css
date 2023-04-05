@@ -183,8 +183,6 @@
         width: 400px;
         height: 350px;
         margin: 20px;
-        font-size: 1.1em;
-        text-align: center;
     }
 
 
@@ -213,14 +211,14 @@
         text-decoration: none;
     }
 
-    .row-button + p {
-       align-self: flex-end;
-       margin-top: auto;
-       margin-bottom: 10px;
-        
+    .row-button+p {
+        align-self: flex-end;
+        margin-top: auto;
+        margin-bottom: 10px;
+
     }
 
-    .row-content    {
+    .row-content {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
